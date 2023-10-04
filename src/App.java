@@ -10,5 +10,11 @@ public class App {
         System.out.println(tal1==tal2);
         System.out.println(tal1<tal2);
         System.out.println(tal1>tal2);
+
+        int[] fält = {4,5,2};
+        System.out.println(fält[0]==fält[1]);
+        System.out.println(fält[0]==fält[2]);
+        System.out.println(fält[0]<fält[1]);
+        System.out.println(fält[0]>fält[2]);
     }
 }
